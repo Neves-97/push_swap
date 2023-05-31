@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: roda-min <roda-min@student.42lisboa.com    +#+  +:+       +#+         #
+#    By: neves <neves@student.42.fr>                +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/29 11:42:26 by roda-min          #+#    #+#              #
-#    Updated: 2023/05/29 12:56:54 by roda-min         ###   ########.fr        #
+#    Updated: 2023/05/30 15:01:08 by neves            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -27,6 +27,7 @@ FLAGS    := -Wall -Wextra -Werror
 ################################################################################
 
 SRCS        :=      push_swap_utils.c \
+                          quick_sort.c \
                           arg_parser.c \
                           push_swap_utils_2.c \
                           5_sort.c \

@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: roda-min <roda-min@student.42lisboa.com    +#+  +:+       +#+        */
+/*   By: neves <neves@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/29 11:42:39 by roda-min          #+#    #+#             */
-/*   Updated: 2023/05/29 12:43:17 by roda-min         ###   ########.fr       */
+/*   Updated: 2023/05/30 15:04:39 by neves            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,5 +59,14 @@ int		ft_find_index(t_node *stack, int value);
 //	SORT
 void	ft_sort_three(t_node **stack_a);
 void	ft_sort_five(t_node **stack_a, t_node **stack_b);
+
+// QUCISORT RANDOM SHIT
+
+void    ft_swap(int *a, int *b);
+t_node *get_last_node(t_node *head);
+void partition(t_node **stack_a, t_node **stack_b);
+void merge(t_node **stack_a, t_node **stack_b);
+void quicksort(t_node **stack_a, t_node **stack_b);
+
 
 #endif
